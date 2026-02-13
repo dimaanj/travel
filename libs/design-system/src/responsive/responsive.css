@@ -1,0 +1,69 @@
+/**
+ * Responsive utility classes using design tokens.
+ * Use these as mixins or apply classes where needed.
+ */
+
+/* Container widths at breakpoints - use with .container-responsive */
+.container-responsive {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--space-4);
+  padding-right: var(--space-4);
+}
+
+@media (min-width: 640px) {
+  .container-responsive {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-responsive {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-responsive {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container-responsive {
+    max-width: 1280px;
+  }
+}
+
+/* Visibility utilities */
+.hide-mobile {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .hide-mobile {
+    display: revert;
+  }
+
+  .show-mobile-only {
+    display: none;
+  }
+}
+
+.show-mobile-only {
+  display: revert;
+}
+
+@media (min-width: 640px) {
+  .show-mobile-only {
+    display: none;
+  }
+}
+
+/* Spacing responsive helpers */
+@media (min-width: 1024px) {
+  .desktop\:gap-8 {
+    gap: var(--space-8);
+  }
+}

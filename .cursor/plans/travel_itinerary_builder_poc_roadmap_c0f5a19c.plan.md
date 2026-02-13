@@ -7,7 +7,7 @@ todos:
     status: pending
   - id: design-system
     content: Create design system library with CSS variables, tokens, and base UI components
-    status: pending
+    status: completed
   - id: api-layer
     content: Design and implement REST API routes with typed API client and React Query integration
     status: pending

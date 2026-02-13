@@ -20,7 +20,8 @@
     "paths": {
       "@org/itinerary-domain": ["libs/itinerary/domain/src/index.ts"],
       "@org/shared-ui": ["libs/shared/ui/src/index.ts"],
-      "@org/design-system": ["libs/design-system/src/index.ts"]
+      "@org/design-system": ["libs/design-system/src/index.ts"],
+      "@org/design-system/styles": ["libs/design-system/src/styles.ts"]
     }
   }
 }

@@ -1,3 +1,4 @@
+import '@org/design-system/styles';
 import './global.css';
 
 export const metadata = {
