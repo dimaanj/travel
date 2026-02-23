@@ -1,0 +1,36 @@
+.root {
+}
+
+.title {
+  margin-bottom: 0;
+}
+
+.emptyCard {
+  margin-top: var(--space-4);
+}
+
+.emptyNote {
+  margin-top: var(--space-2);
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-4) 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.itemLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cardMeta {
+  margin-top: var(--space-1);
+}
+
+.cardDescription {
+  margin-top: var(--space-2);
+}

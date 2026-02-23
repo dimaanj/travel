@@ -1,0 +1,13 @@
+.nav {
+  margin-bottom: var(--space-4);
+}
+
+.backLink {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: var(--text-sm);
+}
+
+.backLink:hover {
+  text-decoration: underline;
+}

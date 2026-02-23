@@ -1,0 +1,141 @@
+.root {
+}
+
+.backLink {
+  display: inline-block;
+  margin-bottom: var(--space-4);
+  font-size: var(--text-sm);
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.backLink:hover {
+  text-decoration: underline;
+}
+
+.header {
+  margin-bottom: var(--space-4);
+}
+
+.titleField {
+  margin-bottom: var(--space-2);
+}
+
+.descriptionField {
+  margin-top: var(--space-2);
+}
+
+.actions {
+  margin-top: var(--space-4);
+  display: flex;
+  gap: var(--space-3);
+}
+
+.saveButton {
+  padding: var(--space-2) var(--space-4);
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--leading-normal);
+  border-radius: var(--radius-md);
+  border: var(--border-width) solid transparent;
+  cursor: pointer;
+  background-color: var(--color-primary);
+  color: var(--color-text-inverse);
+  transition: background-color var(--transition-fast);
+}
+
+.saveButton:hover:not(:disabled) {
+  background-color: var(--color-primary-700);
+}
+
+.saveButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.cancelLink {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  text-decoration: none;
+  border-radius: var(--radius-md);
+  border: var(--border-width) solid var(--color-border);
+}
+
+.cancelLink:hover {
+  background-color: var(--color-surface-hover);
+}
+
+.loading {
+  padding: var(--space-6) 0;
+  color: var(--color-text-muted);
+}
+
+.notFound {
+  padding: var(--space-6) 0;
+}
+
+.notFoundTitle {
+  margin-bottom: var(--space-2);
+}
+
+.daysList {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-6) 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.dayCard {
+  margin-top: 0;
+}
+
+.dayHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.dayDate {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+.activitiesList {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-3) 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.activityItem {
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-background-muted);
+  border-radius: var(--radius-md);
+  font-size: var(--text-sm);
+}
+
+.activityTitle {
+  font-weight: var(--font-weight-medium);
+}
+
+.activityMeta {
+  margin-top: var(--space-1);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+
+.errorMessage {
+  margin-top: var(--space-2);
+  font-size: var(--text-sm);
+  color: var(--color-error);
+}

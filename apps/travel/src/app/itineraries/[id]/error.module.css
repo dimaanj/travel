@@ -1,0 +1,40 @@
+.root {
+  padding: var(--space-6) 0;
+}
+
+.message {
+  margin-top: var(--space-2);
+}
+
+.actions {
+  margin-top: var(--space-4);
+  display: flex;
+  gap: var(--space-3);
+}
+
+.retryButton {
+  padding: var(--space-2) var(--space-4);
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: var(--font-weight-medium);
+  border-radius: var(--radius-md);
+  border: var(--border-width) solid transparent;
+  cursor: pointer;
+  background-color: var(--color-primary);
+  color: var(--color-text-inverse);
+}
+
+.retryButton:hover {
+  background-color: var(--color-primary-700);
+}
+
+.backLink {
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--text-sm);
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.backLink:hover {
+  text-decoration: underline;
+}
