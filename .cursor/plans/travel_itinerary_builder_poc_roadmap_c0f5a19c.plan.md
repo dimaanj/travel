@@ -10,7 +10,7 @@ todos:
     status: completed
   - id: api-layer
     content: Design and implement REST API routes with typed API client and React Query integration
-    status: pending
+    status: completed
   - id: rendering-strategies
     content: Implement SSR, SSG, and CSR strategies in Next.js App Router
     status: pending

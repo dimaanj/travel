@@ -5,7 +5,9 @@
     "emitDeclarationOnly": true,
     "importHelpers": true,
     "isolatedModules": true,
-    "lib": ["es2022"],
+    "lib": [
+      "es2022"
+    ],
     "module": "esnext",
     "moduleResolution": "bundler",
     "noEmitOnError": true,
@@ -16,12 +18,25 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["@org/source"],
+    "customConditions": [
+      "@org/source"
+    ],
     "paths": {
-      "@org/itinerary-domain": ["libs/itinerary/domain/src/index.ts"],
-      "@org/shared-ui": ["libs/shared/ui/src/index.ts"],
-      "@org/design-system": ["libs/design-system/src/index.ts"],
-      "@org/design-system/styles": ["libs/design-system/src/styles.ts"]
+      "@org/api-client": [
+        "libs/api-client/src/index.ts"
+      ],
+      "@org/itinerary-domain": [
+        "libs/itinerary/domain/src/index.ts"
+      ],
+      "@org/shared-ui": [
+        "libs/shared/ui/src/index.ts"
+      ],
+      "@org/design-system": [
+        "libs/design-system/src/index.ts"
+      ],
+      "@org/design-system/styles": [
+        "libs/design-system/src/styles.ts"
+      ]
     }
   }
 }

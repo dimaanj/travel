@@ -6,7 +6,11 @@
     "emitDeclarationOnly": false,
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
@@ -17,15 +21,30 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"],
-      "@org/itinerary-domain": ["../../libs/itinerary/domain/src/index.ts"],
-      "@org/shared-ui": ["../../libs/shared/ui/src/index.ts"],
-      "@org/design-system": ["../../libs/design-system/src/index.ts"],
-      "@org/design-system/styles": ["../../libs/design-system/src/styles.ts"]
+      "@/*": [
+        "./src/*"
+      ],
+      "@org/api-client": [
+        "../../libs/api-client/src/index.ts"
+      ],
+      "@org/itinerary-domain": [
+        "../../libs/itinerary/domain/src/index.ts"
+      ],
+      "@org/shared-ui": [
+        "../../libs/shared/ui/src/index.ts"
+      ],
+      "@org/design-system": [
+        "../../libs/design-system/src/index.ts"
+      ],
+      "@org/design-system/styles": [
+        "../../libs/design-system/src/styles.ts"
+      ]
     },
-    "types": ["jest", "node"],
+    "types": [
+      "jest",
+      "node"
+    ],
     "outDir": "dist",
-    "rootDir": "src",
     "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo"
   },
   "include": [
